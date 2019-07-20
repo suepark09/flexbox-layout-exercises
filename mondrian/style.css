@@ -14,21 +14,44 @@ body {
 
 }
 
-#blocks {
+#section1 {
     display: flex;
     margin: 5px;
-    justify-content: space-between;
+    padding: 5px;
     /* flex-direction: row-reverse; */
     flex-wrap: wrap;
+    flex-direction: column; 
+    border: solid lightcyan;
 }
 
-#blocks div{
-    flex: 0 0 100px; 
+#section1 div{
+    /* flex: 1;  */
+  
     /* zero grow zero shrink and width */
+    height: 150px;
+    width: 100px;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center; 
     padding: 40px 0; 
     text-align: center;
     background: #ccc; 
 }
+
+
+/* .one {
+    flex: 0 0 1; 
+}
+
+.two {
+    flex: 0 0 2; 
+}
+
+.four {
+    flex: 0 0 3; 
+}
+
+. */
 
 .one{order: 1;}
 .two{order: 2;}
@@ -37,5 +60,5 @@ body {
 .five{order: 5;}
 .six{order: 6;}
 .seven{order: 7;}
-.eight{order: 8;}
-.nine{order: 9;}
+/* .eight{order: 8;}
+.nine{order: 9;} */
