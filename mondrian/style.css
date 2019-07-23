@@ -13,50 +13,65 @@ html, body {
     padding: 6px;
     box-sizing: border-box;
     margin-right: 15px;
+    margin: 6em;
     position: relative;
+    background-color: #363636;
 }
-
-/* .last-squares {
-    position: absolute; 
-    width: 8.69565217391%;
-    top: 30vh; 
-    left: 68.3vw;
-    border: solid green; 
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-} */
 
 div {
     display: flex;
     padding: 2px;
     box-sizing: border-box;
-    border: solid 2px red;
+   
     /* border: 4px inset #fff; */
 }
 
- .container > div > div {
-    /* background-color: lightcoral; */
+section {
+    display: flex;
+    padding: 2px;
+    box-sizing: border-box;
+    /* border: solid 2px blue; */
+}
+
+section > div {
+    width: 100%;
+    height: 100;  
+    border: none;
+}
+
+.container > div > div {
+    background-color: lightcoral;
     width: 100%;
     height: 100;  
 }
 
-.sudo > div {
-    /* border: solid 2px blue; */
-    /* background-color: blue; */
+.container > div {
+    border: solid 4px #363636;
 }
 
-/* .seven {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    width: 8.69565217391%;
+/* COLORS */
 
+[color="white"] {
+    background-color: white;
 }
 
-.seven > div {
-    display: flex;
-} */
+[color="red"] {
+    background-color: red;
+}
+
+[color="black"] {
+    background-color: black;
+}
+
+[color="blue"] {
+    background-color: #297cba;
+}
+
+[color="yellow"] {
+    background-color: yellow;
+}
+
+/* ROW OFFSETS */
 
 [offset="1"] {
     margin-top: -9.967826086956523vh;
@@ -197,3 +212,7 @@ div {
 [rows="10"] {
     height: 100vh;
 }
+
+
+
+
